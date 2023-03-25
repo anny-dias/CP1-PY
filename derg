@@ -1,0 +1,5 @@
+numero = int(input("Digite um número com 2 dígitos: "))
+a = numero // 10
+resto = numero % 10
+b = resto // 1
+print(f"Número invertido: {b}{a}")
